@@ -59,7 +59,7 @@ namespace DZ_01_2
 							DateTime.Now.ToString()
 							+ "> Name: " + bank.Name
 							+ "; Money: " + bank.Money
-							+ "; Percent: " + bank.Percent + "\n");
+							+ "; Percent: " + bank.Percent + "\r\n");
 						i = 0;
 						break;
 					} catch (IOException) {
